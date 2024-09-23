@@ -13,7 +13,7 @@ with st.sidebar:
     selected = option_menu(
         menu_title="Sports AI",
         options=["Main Menu", "Coach AI", "Sports Article Summarizer"],
-        icons=["house", "info-circle", "envelope", "house"],
+        icons=["info-circle", "note", "whistle"],
     )
 
 # Function to extract text from PDF using pdfplumber for better accuracy
